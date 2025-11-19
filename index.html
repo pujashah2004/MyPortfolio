@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puja Shah Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">🌸 Puja Shah</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="themeToggle">🌞</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Hi, I’m <span>Puja Shah</span></h1>
+      <h2 id="typed"></h2>
+      <p>I create beautiful and functional websites with clean, modern designs.</p>
+      <div class="hero-buttons">
+        <button class="btn">Hire Me</button>
+    <a href="assets/Puja_CV.pdf" download class="btn-download">📄 Download CV</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="img/png.jpg" alt="Puja's photo">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <div class="about-image">
+        <img src="/img/about1.jpeg" alt="About Puja">
+      </div>
+      <div class="about-text">
+        <p>I’m a passionate web developer who loves transforming ideas into visually appealing, responsive, and high-performing digital experiences. I work with HTML, CSS, JavaScript, and Spring Boot to build beautiful and efficient applications.</p>
+        <p>I focus on crafting smooth UI, responsive layouts, and clean code that reflects both creativity and functionality.</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/puja-shah" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://github.com/pujashah2004" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>My Services</h2>
+    <div class="cards">
+      <div class="card">
+        <i class="fas fa-pencil-ruler"></i>
+        <h3>Web Design</h3>
+        <p>Beautiful, responsive, and user-focused website designs.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-code"></i>
+        <h3>Frontend Development</h3>
+        <p>Building interactive, responsive, and high-performance UIs.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-server"></i>
+        <h3>Backend Development</h3>
+        <p>Developing robust Java + Spring Boot applications.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="img/spotify1.jpeg" alt="Spotify Clone">
+        <div class="project-info">
+          <h3>Spotify Clone</h3>
+          <p>Music app UI built using HTML, CSS, and JS. Mimics real Spotify interface.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="img/keto1.jpeg" alt="Hotel Booking">
+        <div class="project-info">
+          <h3>Hotel Booking System</h3>
+          <p>Dynamic hotel booking site built with Spring Boot, Java, and MySQL.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="img/coffee.jpeg" alt="Coffee Website">
+        <div class="project-info">
+          <h3>Coffee Website</h3>
+          <p>Elegant, cozy coffee-themed web design using HTML, CSS, and JS.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Get in Touch</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+      <button class="btn" type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Puja Shah | Designed with 💗</p>
+  </footer>
+
+</body>
+</html>
