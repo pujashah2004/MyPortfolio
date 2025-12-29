@@ -1,6 +1,5 @@
-// ===== Typing Animation =====
 const typedText = document.getElementById("typed");
-const phrases = ["Web Developer", "Frontend Developer", "Backend Explorer", ""];
+const phrases = ["QA Engineer", "Manual Tester", "Automation Tester", "Test Analyst"];
 let i = 0, j = 0;
 let isDeleting = false;
 
@@ -14,7 +13,7 @@ function type() {
 
   if (!isDeleting && typedText.textContent === current) {
     isDeleting = true;
-    setTimeout(type, 1500); // wait before deleting
+    setTimeout(type, 1500);
   } else if (isDeleting && typedText.textContent === "") {
     isDeleting = false;
     i = (i + 1) % phrases.length;
@@ -26,10 +25,3 @@ function type() {
 }
 
 type();
-
-// ===== Theme Toggle =====
-const themeToggle = document.getElementById("themeToggle");
-themeToggle.addEventListener("click", () => {
-  document.body.classList.toggle("dark-theme");
-  themeToggle.textContent = document.body.classList.contains("dark-theme") ? "🌙" : "🌞";
-});
